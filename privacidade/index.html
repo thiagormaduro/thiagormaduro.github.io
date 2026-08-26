@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Assistentes do Thiago</title>
+<style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 2.5rem 1.25rem 4rem;
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1c2430; background: #fbfcfd;
+    }
+    main { max-width: 44rem; margin: 0 auto; }
+    h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 .35rem; letter-spacing: -.01em; }
+    h2 { font-size: 1.1rem; margin: 2.2rem 0 .6rem; letter-spacing: -.005em; }
+    p, li { color: #33404f; }
+    .sub { color: #64748b; font-size: .92rem; margin: 0 0 2rem; }
+    table { border-collapse: collapse; width: 100%; margin: .8rem 0 0; font-size: .95rem; }
+    th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+    th { color: #475569; font-weight: 600; }
+    a { color: #0f766e; }
+    ul { padding-left: 1.15rem; }
+    footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid #e2e8f0; color: #64748b; font-size: .9rem; }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e6edf3; background: #0f1419; }
+      p, li { color: #c2ccd6; }
+      .sub, th, footer { color: #8b98a5; }
+      th, td, footer { border-color: #232c36; }
+      a { color: #4db6ac; }
+    }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Política de Privacidade</h1>
+<p class="sub">Assistentes pessoais de Thiago Rafalski Maduro · atualizada em 26 de agosto de 2026</p>
+
+<h2>O que é este aplicativo</h2>
+<p>“Assistentes do Thiago” é um aplicativo <strong>pessoal e de usuário único</strong>,
+usado exclusivamente por Thiago Rafalski Maduro para acessar a própria conta Google.
+Ele não é oferecido a terceiros, não tem cadastro, não tem clientes e não coleta dados
+de nenhuma outra pessoa. O aplicativo roda em um computador pessoal (macOS) do próprio
+titular da conta.</p>
+
+<h2>Que dados são acessados</h2>
+<p>Mediante autorização explícita do titular na tela de consentimento do Google, e
+somente da conta dele:</p>
+<table>
+  <tr><th>Dado</th><th>Para quê</th></tr>
+  <tr><td>Gmail (ler, buscar, organizar, enviar)</td><td>Localizar e organizar mensagens do titular e enviar e-mails a pedido dele</td></tr>
+  <tr><td>Google Drive</td><td>Ler, criar e organizar arquivos do titular</td></tr>
+  <tr><td>Google Agenda</td><td>Consultar, criar e alterar compromissos do titular</td></tr>
+  <tr><td>Google Contatos</td><td>Consultar e atualizar contatos do titular</td></tr>
+</table>
+<p>O aplicativo <strong>não</strong> solicita permissão para excluir e-mails de forma
+definitiva. Exclusões vão para a lixeira e são reversíveis.</p>
+
+<h2>Como os dados são usados</h2>
+<p>Os dados são acessados apenas para executar tarefas pedidas pelo próprio titular, no
+momento em que ele as pede. Não há coleta em segundo plano para fins próprios,
+perfilamento, publicidade ou venda de informação.</p>
+<p><strong>Processamento por modelo de linguagem.</strong> O aplicativo funciona sobre o
+Claude, da Anthropic. Quando o titular pede uma tarefa que envolve o conteúdo de uma
+mensagem, arquivo ou compromisso, esse conteúdo é enviado à API da Anthropic para ser
+interpretado, e fica sujeito à política de privacidade da Anthropic. Nenhum outro
+terceiro recebe esses dados.</p>
+
+<h2>Onde os dados ficam</h2>
+<ul>
+  <li>As credenciais de acesso (cliente OAuth e token de atualização) ficam no Chaves do
+      macOS do computador do titular — nunca em arquivos do projeto, serviços de nuvem
+      ou repositórios de código.</li>
+  <li>Conteúdo de e-mail, arquivos e agenda <strong>não é armazenado</strong> pelo
+      aplicativo: é lido no momento do uso e descartado.</li>
+  <li>Registros operacionais locais guardam apenas o que aconteceu (por exemplo, “uma
+      mensagem foi lida”), sem o conteúdo.</li>
+</ul>
+
+<h2>Compartilhamento</h2>
+<p>Nenhum dado é compartilhado, vendido, alugado ou transferido a terceiros, com a única
+exceção do processamento pela Anthropic descrito acima, necessário para o funcionamento
+do aplicativo. Os dados não são usados para treinar modelos de inteligência artificial.</p>
+
+<h2>Retenção e exclusão</h2>
+<p>Como não há armazenamento de conteúdo, não há retenção a expirar. O titular pode
+encerrar o acesso a qualquer momento:</p>
+<ul>
+  <li>em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+      removendo o acesso do aplicativo; ou</li>
+  <li>no próprio computador, executando a rotina de revogação do aplicativo, que revoga o
+      token no Google e apaga a credencial do Chaves.</li>
+</ul>
+<p>Depois disso, o aplicativo perde qualquer acesso à conta.</p>
+
+<h2>Uso limitado</h2>
+<p>O uso das informações recebidas das APIs do Google por este aplicativo adere à
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Política de
+Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso
+Limitado.</p>
+
+<h2>Contato</h2>
+<p>Thiago Rafalski Maduro — <a href="mailto:thiagormaduro@gmail.com">thiagormaduro@gmail.com</a></p>
+
+<footer>Thiago Rafalski Maduro · <a href="mailto:thiagormaduro@gmail.com">thiagormaduro@gmail.com</a></footer>
+</main>
+</body>
+</html>
